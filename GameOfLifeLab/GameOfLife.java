@@ -182,24 +182,29 @@ public class GameOfLife
         Rock rock = new Rock();
 
         for (int row = 0; row<=9; row++)
+        
+        //Iterates through each row of the grid
         {
             for (int col = 0; col<=9; col++)
+            //iterates through each column of the grid
             {
 
                 Location loc = new Location(row, col);
 
                 if (getActor(row, col) != null)
+                //figures whether the actor is actually there
                 {
                     if (grid.getOccupiedAdjacentLocations(loc).size()<2 || grid.getOccupiedAdjacentLocations(loc).size()>3)
+                    //uses two statements to figure whether the cell that is tested is overpopulated or underpopulated
                     {
-
+                        //depopulates if it is true
                         grid.remove(loc);
 
                     }
                     else if(grid.getOccupiedAdjacentLocations(loc).size()==2 ||
                     grid.getOccupiedAdjacentLocations(loc).size()==3)
                     {
-
+                        //places a rock if the requirments are met 
                         grid.put(loc, rock);
                     }
                 }

@@ -1,0 +1,15 @@
+What did you like or dislike?
+I definitely liked challenging myself with an algorithm that seemed simple at first, but grew in complexity as it had to be converted into code.
+Why?
+I thought it was both frustrating and a break from the normal tedious programming tasks.
+
+What was suprising or unexpected?
+It was both suprising and unexpected that I had to recreate the grid every time a new generation was stepped into existence, because I thought
+there would be a more efficient way,  maybe manipulating the current grid, to do the lab.
+I was also suprised by how long it took.
+What did you learn?
+I learned mostly about how important getting the value of an int or a float is, and how it is  very bad idea to try and make local variables in the method that is manipulating the variables
+What questions do you still have?
+Why does a new grid have to always be created? why is there not a set of methods to manipulate the current gridWorld? what in java prevents this from being the case?
+What advice would you offer next year's students?
+Do the assignment before its due, so you don't have to scramble to finish it last minute.
